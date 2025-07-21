@@ -241,4 +241,69 @@ C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git branch
   frontend
 * main
 
-C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>  
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git add .
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git commit -m "newwww"
+[main 4b216cc] newwww
+ 1 file changed, 98 insertions(+), 1 deletion(-)
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 950 bytes | 950.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Aadhithya2005-lab/Git-Practice-.git
+   1520a78..4b216cc  main -> main
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git branch 
+  frontend
+* main
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git add . 
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git commit -m "new with diff folder" 
+[main 15f3953] new with diff folder
+ 1 file changed, 1 insertion(+)
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git push orgin frontend             
+fatal: 'orgin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git push origin frontend
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: Create a pull request for 'frontend' on GitHub by visiting:
+remote:      https://github.com/Aadhithya2005-lab/Git-Practice-/pull/new/frontend
+remote:
+To https://github.com/Aadhithya2005-lab/Git-Practice-.git
+ * [new branch]      frontend -> frontend
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git diff
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 313 bytes | 313.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Aadhithya2005-lab/Git-Practice-.git
+   4b216cc..15f3953  main -> main
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git push origin frontend
+Everything up-to-date
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>

@@ -306,4 +306,259 @@ To https://github.com/Aadhithya2005-lab/Git-Practice-.git
 C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git push origin frontend
 Everything up-to-date
 
-C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git add .
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git commit -m "updated"  
+[main a28db6a] updated
+ 1 file changed, 66 insertions(+), 1 deletion(-)
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git push origin frontend
+Everything up-to-date
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 808 bytes | 808.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Aadhithya2005-lab/Git-Practice-.git
+   15f3953..a28db6a  main -> main
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git checkout frontend
+Switched to branch 'frontend'
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git add .
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git commit -m "frontend"
+[frontend 8367078] frontend
+ 1 file changed, 3 insertions(+)
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git push orgin frontend
+fatal: 'orgin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git push origin frontend
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 335 bytes | 335.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Aadhithya2005-lab/Git-Practice-.git
+   1520a78..8367078  frontend -> frontend
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git status
+On branch frontend
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        server.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git branch
+* frontend
+  main
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git branch -b "backend" 
+error: unknown switch `b'
+usage: git branch [<options>] [-r | -a] [--merged] [--no-merged]
+   or: git branch [<options>] [-f] [--recurse-submodules] <branch-name> [<start-point>]
+   or: git branch [<options>] [-l] [<pattern>...]
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+   or: git branch [<options>] [-r | -a] [--points-at]
+   or: git branch [<options>] [-r | -a] [--format]
+
+Generic options
+    -v, --[no-]verbose    show hash and subject, give twice for upstream branch
+    -q, --[no-]quiet      suppress informational messages
+    -t, --[no-]track[=(direct|inherit)]
+                          set branch tracking configuration
+    -u, --[no-]set-upstream-to <upstream>
+                          change the upstream info
+    --[no-]unset-upstream unset the upstream info
+    --[no-]color[=<when>] use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --[no-]abbrev[=<n>]   use <n> digits to display object names
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --[no-]delete     delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --[no-]move       move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    --[no-]omit-empty     do not output a newline after empty formatted refs
+    -c, --[no-]copy       copy a branch and its reflog
+    -C                    copy a branch, even if target exists
+    -l, --[no-]list       list branch names
+    --[no-]show-current   show current branch name
+    --[no-]create-reflog  create the branch's reflog
+    --[no-]edit-description
+                          edit the description for the branch
+    -f, --[no-]force      force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --[no-]column[=<style>]
+                          list branches in columns
+    --[no-]sort <key>     field name to sort on
+    --[no-]points-at <object>
+                          print only branches of the object
+    -i, --[no-]ignore-case
+                          sorting and filtering are case insensitive
+    --[no-]recurse-submodules
+                          recurse through submodules
+    --[no-]format <format>
+                          format to use for the output
+
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git branch
+* frontend
+  main
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git checkout -b "backend" 
+Switched to a new branch 'backend'
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git branch
+* backend
+  frontend
+  main
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git add .
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git commit -m ""
+Aborting commit due to empty commit message.
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git commit -m "New with backend" 
+[backend 2feb07f] New with backend
+ 1 file changed, 1 insertion(+)
+ create mode 100644 server.js
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git push
+fatal: The current branch backend has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin backend
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git push origin backend
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 302 bytes | 302.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'backend' on GitHub by visiting:
+remote:      https://github.com/Aadhithya2005-lab/Git-Practice-/pull/new/backend
+remote:
+To https://github.com/Aadhithya2005-lab/Git-Practice-.git
+ * [new branch]      backend -> backend
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git branch main
+fatal: a branch named 'main' already exists
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git branch
+  backend
+  frontend
+* main
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git add index.html
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git commit -m "new"
+[main 9892792] new
+ 1 file changed, 2 insertions(+)
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git push origin main
+To https://github.com/Aadhithya2005-lab/Git-Practice-.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Aadhithya2005-lab/Git-Practice-.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 929 bytes | 51.00 KiB/s, done.
+From https://github.com/Aadhithya2005-lab/Git-Practice-
+ * branch            main       -> FETCH_HEAD
+   a28db6a..9dc3775  main       -> origin/main
+Auto-merging index.html
+CONFLICT (content): Merge conflict in index.html
+Automatic merge failed; fix conflicts and then commit the result.
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git push
+To https://github.com/Aadhithya2005-lab/Git-Practice-.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Aadhithya2005-lab/Git-Practice-.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git add .      
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git commit -m "feature conflict handled" 
+[main 100706f] feature conflict handled
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 672 bytes | 672.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 2 local objects.
+To https://github.com/Aadhithya2005-lab/Git-Practice-.git
+   9dc3775..100706f  main -> main
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git add .
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git add .
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git commit -m "merge conflict resoleved"
+[main a1f511f] merge conflict resoleved
+ 1 file changed, 3 deletions(-)
+
+C:\Users\aadhraja\OneDrive - EPS US, LLC\Documents\git practice new>git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 303 bytes | 303.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Aadhithya2005-lab/Git-Practice-.git
+   100706f..a1f511f  main -> main

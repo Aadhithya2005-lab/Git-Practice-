@@ -133,3 +133,12 @@ git log	Shows the commit history of the current branch, with SHA, author, date, 
 git log --oneline	Shows a concise log with just short SHAs and commit messages.
 git log --graph --oneline --all	Shows a visual graph of all branches and commits—great for understanding merges and branches.
 git log <file>	Shows the commit history of a specific file.
+
+
+
+#purpose
+-Internship Traineee
+#Repo info
+Author:Aadhithya Raja
+Date:21/07/2025
+Topic:All Git Commands
